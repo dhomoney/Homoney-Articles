@@ -1,5 +1,7 @@
 # OWASP API Top Ten 2023 - All Your APIs Are Belong to Us
 
+![Cat: All Your APIs Are Belong To Us](images/all-your-apis-are-belong.jpg)
+
 API security risks are becoming more common. For this reason back in 2019, the [Open Web Application Security Project (OWASP)](https://owasp.org/) expanded its Top Ten to include API security.  In this blog post, we will discuss the newly released 2023 standards and what they show are the common vulnerabilities in APIs. 
 
 ## Why the OWASP API Top Ten is Important
