@@ -2,7 +2,7 @@
 
 ![Just Duex It!](/images/just-duex-it.jpg)
 
-In this follow up post to our now viral and world famous blog, entitled with the ever catchy title "OWASP API Top 10 Deep Dive - Part 1". Herein we will delve deeper into categories 3 and 4 on the list, Broken Object Property Level Authorization and Unrestricted Resource Consumption. Without futher ado and a shiver of excitement up our spines...
+In this follow up post to our now viral and world famous blog, entitled with the ever catchy title [OWASP API Top 10 Deep Dive - Part 1](https://www.wwt.com/blog/owasp-api-top-10-deep-dive-part-1). Herein we will delve deeper into categories 3 and 4 on the list, Broken Object Property Level Authorization and Unrestricted Resource Consumption. Without futher ado and a shiver of excitement up our spines...
 
 ## **Broken Object Property Level Authorization**
 
