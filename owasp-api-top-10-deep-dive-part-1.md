@@ -44,6 +44,8 @@ Additionally, OWASP states that your microservices, often associated with APIs, 
 1. Other microservices can access it without authentication.
 2. Uses weak or predictable tokens to enforce authentication.
 
+![Anonymous](/images/anonymous-hacker.jpg)
+
 ### **What are the risks associated with Broken Authentication?**
 
 The risks associated with Broken Authentication are similar to those of Broken Object Level Authorization, as attackers can gain access to sensitive information or functionality that they are not authorized to access. However, Broken Authentication refers specifically to issues with the authentication mechanisms used to verify a user's identity.
