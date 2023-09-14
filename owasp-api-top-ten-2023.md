@@ -1,4 +1,4 @@
-# OWASP API Top Ten 2023 - All Your APIs Are Belong to Us
+# OWASP API Top Ten 2023 - All Your API Vulnerabilities Are Belong to Us
 
 ![Cat: All Your APIs Are Belong To Us](images/all-your-apis-are-belong.jpg)
 
