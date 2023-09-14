@@ -18,6 +18,8 @@ One of the challenges with object level authorization is that it can be difficul
 
 When object level authorization is broken, attackers can gain access to sensitive information or functionality that they are not authorized to access. This can lead to data breaches, system compromises, and other security incidents. Object level authorization is a key component of securing systems and protecting valuable data.
 
+![Hacker](/images/hacker.jpg)
+
 One real life example is a car manufacturer, who’s name we will not mention, had an API that allowed users to remote start and stop their vehicles, lock and unlock the doors, and other functions. As part of this the request was sent with the Vehicle Identification Number, or VIN, but did not ensure that the user was the owner of said VIN, allowing anyone with the VIN for the car to control the car without proper authorization, only the VIN. This is a great example of Broken Object Level Authorization.  
 
 ## **Broken Authentication**
@@ -42,7 +44,7 @@ Additionally, OWASP states that your microservices, often associated with APIs, 
 1. Other microservices can access it without authentication.
 2. Uses weak or predictable tokens to enforce authentication.
 
-### **What are the risks associated with Broken Object Level Authorization?**
+### **What are the risks associated with Broken Authentication?**
 
 The risks associated with Broken Authentication are similar to those of Broken Object Level Authorization, as attackers can gain access to sensitive information or functionality that they are not authorized to access. However, Broken Authentication refers specifically to issues with the authentication mechanisms used to verify a user's identity.
 
