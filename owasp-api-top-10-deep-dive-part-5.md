@@ -56,10 +56,10 @@ Unsafe consumption of APIs poses several risks to the security and stability of 
 
 ## Conclusion
 
-![The End](/images/the-end.jpg)
-
 The unsafe consumption of APIs can expose organizations to significant security risks and vulnerabilities. It is crucial for organizations to follow secure coding practices, implement robust authentication and authorization mechanisms, validate and sanitize user input, encrypt data during transmission, and enforce rate limiting and throttling to mitigate these risks effectively. By prioritizing API security and adopting best practices, organizations can enhance the overall security posture of their systems and protect their valuable data assets.
 
 Improper inventory management in APIs can leave organizations vulnerable to various security risks and vulnerabilities. It is crucial for organizations to establish robust processes for API versioning and retirement, implement strong security controls, monitor API activities, enforce access controls, conduct regular audits, and provide training to mitigate the risks effectively. By prioritizing proper inventory management and adhering to best practices, organizations can enhance the overall security posture of their systems and protect their valuable data assets.
 
 As stated in prior parts of this series, API security is an ongoing effort, and organizations should continuously evaluate and improve their API Security practices to ensure the continued protection of their APIs and most importantly the data.
+
+![The End](/images/the-end.jpg)
