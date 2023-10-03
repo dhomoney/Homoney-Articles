@@ -10,6 +10,8 @@ When it comes to securing APIs, one of the critical aspects to consider is funct
 
 Broken Function Level Authorization occurs when an API does not properly enforce authorization checks for different functions or endpoints. This means that even if a user is not authorized to perform a specific action, they may still be able to access and execute it through the API. Essentially, this vulnerability allows unauthorized users to bypass security controls and perform actions they shouldn't be able to.
 
+![coding](/images/coding.jpg)
+
 ### Risks associated with Broken Function Level Authorization?
 
 Broken Function Level Authorization can have severe consequences for the security of an API and its users. By exploiting this vulnerability, attackers can gain unauthorized access to sensitive data or perform actions that should only be allowed for privileged users. For example, a user with limited access might be able to escalate their privileges and gain administrative rights, compromising the entire system. Additionally, it can lead to data breaches, unauthorized modifications, or even complete system compromise.
@@ -21,6 +23,8 @@ Function level authorization is a critical component of API security. Failure to
 In the realm of API security, one of the critical concerns is ensuring restricted access to sensitive business flows. The concept of restricted access revolves around determining which users or roles are authorized to perform specific actions within an API. However, if this access control mechanism is not properly implemented, it can lead to a significant security vulnerability known as Unrestricted Access to Sensitive Business Flows. In this blog post, we will delve into what Unrestricted Access to Sensitive Business Flows entails, why it poses a threat, and how to mitigate this risk.
 
 Unrestricted Access to Sensitive Business Flows occurs when an API fails to enforce proper access controls for critical business flows or processes. This means that even unauthorized users may be able to execute sensitive actions or access confidential information through the API. Essentially, this vulnerability enables malicious actors to bypass security measures and perform actions that should only be accessible to authorized individuals.
+
+![You've Been Hacked](/images/youve-been-hacked.jpg)
 
 ### Risks Associated with Unrestricted Access to Sensitive Business Flows
 
