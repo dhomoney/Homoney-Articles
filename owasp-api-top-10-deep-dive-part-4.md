@@ -10,6 +10,8 @@ In the realm of API security, one of the critical vulnerabilities to be aware of
 
 SSRF is a type of security vulnerability that allows an attacker to make unauthorized requests from the server-side of an API. By manipulating the API's requests, an attacker can potentially access internal resources, such as local files, databases, or other APIs, that are not intended to be exposed. SSRF often occurs when an API does not properly validate or restrict the URLs or endpoints it can access.
 
+![Forger Arrested](/images/criminal-handcuffs.jpg)
+
 ## Risks Associated with SSRF
 
 SSRF poses several risks to the security and integrity of an API. By exploiting SSRF, an attacker can bypass network security measures and access sensitive information or resources. For example, an attacker could make requests to internal APIs or services and retrieve confidential data, modify data, or even perform actions that could lead to a complete compromise of the system. Additionally, SSRF can be leveraged to perform attacks such as port scanning, remote code execution, or even accessing resources in the internal network.
@@ -21,6 +23,8 @@ In App and API security, another critical vulnerability that organizations shoul
 ## Understanding Security Misconfiguration
 
 Security Misconfiguration refers to the incorrect configuration of security settings and controls in an API. It can occur at various levels, including server configurations, framework settings, database configurations, and even API endpoints. When security measures are not properly implemented or are left in their default and insecure states, it opens up avenues for potential attacks.
+
+![Security Misconfiguration](/images/security-kid.jpg)
 
 ## Risks Associated with Security Misconfiguration
 

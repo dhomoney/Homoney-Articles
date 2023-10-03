@@ -17,6 +17,8 @@ Improper inventory management in APIs occurs when organizations fail to effectiv
 
 Improper inventory management in APIs can occur due to lack of oversight, poor documentation, or inadequate processes for managing APIs and their associated resources. It can expose organizations to significant security risks and potential exploitation by malicious actors.
 
+![Inventory](/images/inventory.jpg)
+
 ## Risks Associated with Improper Inventory Management in APIs
 
 Improper inventory management in APIs poses several risks to the security and stability of an organization's applications and systems. Some of the key risks include:
@@ -31,6 +33,8 @@ Improper inventory management in APIs poses several risks to the security and st
 In the realm of API security, one critical vulnerability that organizations should be aware of is the unsafe consumption of APIs. Unsafe consumption refers to the improper handling and usage of APIs, which can lead to various security risks and vulnerabilities. In this blog post, we will explore what unsafe consumption of APIs entails, the associated risks, and how organizations can mitigate these risks to ensure the security and integrity of their systems.
 
 ## Understanding Unsafe Consumption of APIs
+
+![Unsafe Consumption](/images/unsafe-consumption.jpg)
 
 Unsafe consumption of APIs occurs when organizations do not follow proper security practices while consuming or integrating APIs into their applications or systems. This vulnerability can manifest in different ways, including:
 
@@ -51,6 +55,8 @@ Unsafe consumption of APIs poses several risks to the security and stability of 
 4. **API Abuse and Resource Exhaustion**: Without proper rate limiting and throttling mechanisms, APIs can be abused, leading to denial-of-service attacks or excessive resource consumption, affecting the availability and performance of the API and potentially impacting other systems.
 
 ## Conclusion
+
+![The End](/images/the-end.jpg)
 
 The unsafe consumption of APIs can expose organizations to significant security risks and vulnerabilities. It is crucial for organizations to follow secure coding practices, implement robust authentication and authorization mechanisms, validate and sanitize user input, encrypt data during transmission, and enforce rate limiting and throttling to mitigate these risks effectively. By prioritizing API security and adopting best practices, organizations can enhance the overall security posture of their systems and protect their valuable data assets.
 
