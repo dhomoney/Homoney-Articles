@@ -1,6 +1,6 @@
 # OWASP API Top Ten Deep Dive Part 4
 
-Here in the fourth installment of our 5 part series on OWASP’s API Top Ten we delve into categories 7 and 8 with Server Side Request Forgery and Security Misconfiguration. As modern applications and network becomes more abstracted Security Misconfiguration is a consistent problem owing to complexity and interconnected nation of APIs and applications in general. With that let’s dive right in. 
+Here in the fourth installment of our 5 part series on OWASP’s API Top Ten, we delve into categories 7 and 8 with Server Side Request Forgery and Security Misconfiguration. As modern applications and the network become more abstracted Security Misconfiguration is a consistent problem owing to the complexity and interconnected nation of APIs and applications in general. With that let’s dive right in. 
 
 # Server Side Request Forgery in APIs
 
@@ -8,7 +8,7 @@ In the realm of API security, one of the critical vulnerabilities to be aware of
 
 ## Understanding Server Side Request Forgery (SSRF)
 
-SSRF is a type of security vulnerability that allows an attacker to make unauthorized requests from the server-side of an API. By manipulating the API's requests, an attacker can potentially access internal resources, such as local files, databases, or other APIs, that are not intended to be exposed. SSRF often occurs when an API does not properly validate or restrict the URLs or endpoints it can access.
+SSRF is a type of security vulnerability that allows an attacker to make unauthorized requests from the server side of an API. By manipulating the API's requests, an attacker can potentially access internal resources, such as local files, databases, or other APIs, that are not intended to be exposed. SSRF often occurs when an API does not properly validate or restrict the URLs or endpoints it can access.
 
 ![Forger Arrested](/images/criminal-handcuffs.jpg)
 
@@ -18,7 +18,7 @@ SSRF poses several risks to the security and integrity of an API. By exploiting 
 
 # Security Misconfiguration in APIs
 
-In App and API security, another critical vulnerability that organizations should be aware of is Security Misconfiguration. Security Misconfiguration occurs when an App, API, or underlying technology is not properly configured, leaving it vulnerable to various attacks and exploitation. Let’s explore what Security Misconfiguration is and the risks associated with it.
+In-App and API security, another critical vulnerability that organizations should be aware of is Security Misconfiguration. Security Misconfiguration occurs when an App, API, or underlying technology is not properly configured, leaving it vulnerable to various attacks and exploitation. Let’s explore what Security Misconfiguration is and the risks associated with it.
 
 ## Understanding Security Misconfiguration
 
