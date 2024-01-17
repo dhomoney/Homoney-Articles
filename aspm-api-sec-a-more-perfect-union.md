@@ -21,7 +21,7 @@ ASPM encompasses a wide range of activities that revolve around the continuous m
 
 ## How Application Security Posture Management (ASPM) and API Security Work Together
 
-The 2020's ever-evolving digital landscape, companies are confronted with a plethora of challenges when it comes to safeguarding the security of their data [being accessed through] contained within applications and APIs. It is crucial to address these challenges to strengthen the organization's overall security posture and safeguard valuable and confidential data.
+The 2020's ever-evolving digital landscape, companies are confronted with a plethora of challenges when it comes to safeguarding the security of their data being accessed through applications and APIs. It is crucial to address these challenges to strengthen the organization's overall security posture and safeguard valuable and confidential data.
 
 One crucial aspect in this regard is Application Security Posture Management (ASPM), which entails the continuous monitoring, assessment, and enhancement of an organization's application security posture. By actively focusing on ASPM, organizations can proactively identify vulnerabilities and improve their overall security measures from code to runtime, regardless of where the workloads are running.
 
