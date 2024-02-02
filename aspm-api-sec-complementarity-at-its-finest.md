@@ -5,23 +5,23 @@ Complementarity is a word not often heard outside Quantum Physics circles these 
 complementarity
 : the quality of being different but useful when combined
 
-This, I think, is a great definition to use for the relationship between Application Security Posture Management (ASPM) and API security, and especially between !(Ap
+This, I think, is a great definition to use for the relationship between Application Security Posture Management (ASPM) and API security, and especially between [Akamai](https://www.wwt.com/partner/akamai/overview) and [Apiiro](https://apiiro.com) and the complementarity of their runtime API security offering and ASPM. These two come at API Security from different, but very complementary ways. Akamai's API Security staunchly in the Defend side of security while Apiiro takes a Secure side approach, protecting the software supply-chain. 
 
 ## Complete code-to-runtime API discovery
-With our deep code analysis, Apiiro continuously inventories all APIs and data models and audits all activity in repositories to detect new and material changes to APIs and surface weaknesses before they’re committed or deployed. Powered by our Risk Graph, Apiiro can also highlight APIs connected to sensitive data (i.e., PII, PCI, PHI) or other security weaknesses.
 
-This level of code-based visibility and ability to discover API components vulnerable to misconfigurations, code logic flaws, design flaws, and common coding errors is an important complement to runtime API security.
+One of the very core tenants of API Security is discovery, for you cannot secure that which you don't know about. This has long been an Achille's heal of API Security. There have been multiple differing attempts, varying from crawlers to forcing traffic rerouted through SaaS-only solutions, and these work to varying degrees, but all have flaws. Crawlers, to date, miss too much and still having the issue of having to know where to crawl for your APIs. The forcing traffic through an SaaS, is a bit better in that all external internet facing traffic would pass through and this detection is typically more accurate, but this has its own issues, such as the effort and disruption of doing this, if you aren't using a SaaS CDN already, and you still will not catch or detect potential B2B APIs that run over private links or APIs placed in the Cloud in places the SecOps team is unaware of. This is where the addition of Apiiro to the mix closes the loop, by connecting to the repositories themselves.  
 
-<Screenshot of APIs in inventory?>
+Using deep code analysis, Apiiro continuously inventories all APIs and data models. It audits all activity in repositories to detect new and significant changes to APIs and identify vulnerabilities before they are committed or deployed. Apiiro is powered by our Risk Graph, which can also highlight APIs connected to sensitive data (such as PII, PCI, PHI) or other security weaknesses.
 
+This level of visibility into the code allows for the discovery of API components that may be vulnerable to misconfigurations, code logic flaws, design flaws, and common coding errors. It is a valuable addition to runtime API security.
 
-
-Having code-to-runtime visibility of your API estate helps not only discover shadow APIs but also enables developers to prevent API weaknesses from being deployed, saving time spent reactively addressing risk. Apiiro’s proactive approach also helps modernize your risk assessment processes and proactively trigger security reviews based on risky material API changes in code.
+Having visibility into the code-to-runtime helps in discovering shadow APIs and enables developers to prevent API weaknesses from being deployed. This saves time that would otherwise be spent on reactive risk mitigation. Apiiro's proactive approach also helps modernize risk assessment processes and triggers security reviews based on risky material API changes in the code.
 
 ## Prioritization of API risks in code with runtime context from Akamai 
 
-Determining whether or not an API weakness in code is actually risky to your organization—and to what degree—depends on the likelihood (i.e., a risk in a publicly exposed API is more likely to manifest as a real risk) and impact (i.e., an API handling sensitive data has a greater potential impact) a risk has on your business. 
-By connecting Apiiro’s deep contextual knowledge of code and insight into API behavior and threats in runtime from Akamai’s API Security, you can more accurately determine a risk’s likelihood and impact and prioritize business-critical API risks. 
+The level of risk that an API weakness in code poses to your organization depends on the likelihood and impact of that risk. For instance, a risk in a publicly exposed API is more likely to become a real risk, and an API that handles sensitive data has a greater potential impact on your business.
+
+By combining Apiiro's deep contextual knowledge of code with Akamai API Security's insight into API behavior and threats at runtime, customers can accurately assess the likelihood and impact of a risk, and prioritize API risks critical to the business.
 
 ![Filtered Risk Pane](/images/filtered-risk-pane.jpg)
 
@@ -29,7 +29,7 @@ Fusing code and runtime context enables teams to prioritize business-critical AP
 
 ## Visibility into API security coverage and gaps
 
-It can be challenging for AppSec teams—especially within large organizations—to know exactly what security testing is being done where. As part of our ASPM and deep code analysis, Apiiro maps security testing coverage, including from Akamai, across all code repositories. 
+It can often be a daunting task for Application Security (AppSec) teams, particularly those operating within large organizations, to have complete visibility into the extent and effectiveness of security testing efforts. This lack of clarity can hinder their ability to assess the overall security posture of their applications. However, with the help of Apiiro's ASPM solution and comprehensive deep code analysis, offers a compelling solution. ASPM empowers AppSec teams to holisticly view security testing coverage, including from external sources such as Akamai API Security and not just from within their own code repositories. By consolidating and analyzing security testing data from various sources, ASPM empowers organizations to make informed decisions and effectively address any potential vulnerabilities or weaknesses in their applications.
 
 ![Security Coverage](/images/security-coverage.jpg)
 
@@ -41,4 +41,6 @@ Ultimately, this insight has the ability to minimize API security testing gaps a
 
 ## Unifying API risk management from code to runtime
 
-Apiiro’s integration with Akamai API Security empowers teams to streamline their API discovery, testing, prioritization, and remediation with continuous and complete visibility of APIs and API risks from development to runtime. This integration is the first step in providing an integrated view of API risks that unifies code and runtime insights so teams can proactively secure their APIs and efficiently prioritize and remediate API risks. 
+The integration between Akamai API Security and Apiiro ASPM enables teams to finally have comprehensive API discovery, testing, prioritization, and remediation with continuous and complete visibility of APIs and API risks from development to runtime. This integration is the first step in providing an integrated view of API risks that unifies code and runtime insights, thus allowing SecOps to proactively secure their APIs and efficiently prioritize and remediate API risks. 
+
+In the end, this is exciting news for DevSecOps all around and closes some major loopholes in API Security and ties in ASPM to the Defend side for real security, from code to runtime. 
