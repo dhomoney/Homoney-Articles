@@ -17,6 +17,28 @@ This level of code-based visibility and ability to discover API components vulne
 
 
 Having code-to-runtime visibility of your API estate helps not only discover shadow APIs but also enables developers to prevent API weaknesses from being deployed, saving time spent reactively addressing risk. Apiiro’s proactive approach also helps modernize your risk assessment processes and proactively trigger security reviews based on risky material API changes in code.
+
 ## Prioritization of API risks in code with runtime context from Akamai 
+
 Determining whether or not an API weakness in code is actually risky to your organization—and to what degree—depends on the likelihood (i.e., a risk in a publicly exposed API is more likely to manifest as a real risk) and impact (i.e., an API handling sensitive data has a greater potential impact) a risk has on your business. 
 By connecting Apiiro’s deep contextual knowledge of code and insight into API behavior and threats in runtime from Akamai’s API Security, you can more accurately determine a risk’s likelihood and impact and prioritize business-critical API risks. 
+
+![Filtered Risk Pane](/images/filtered-risk-pane.jpg)
+
+Fusing code and runtime context enables teams to prioritize business-critical API security issues, reduce false positives, and save time triaging backlogs and fixing risks. 
+
+## Visibility into API security coverage and gaps
+
+It can be challenging for AppSec teams—especially within large organizations—to know exactly what security testing is being done where. As part of our ASPM and deep code analysis, Apiiro maps security testing coverage, including from Akamai, across all code repositories. 
+
+![Security Coverage](/images/security-coverage.jpg)
+
+That coverage mapping, tied to Apiiro’s code-based insights (i.e., handling of sensitive data, amount of risky changes), can help dictate where security testing should be done and where gaps exist. For example, you may want to ensure that all high business impact (HBI) applications or repositories containing APIs and sensitive data—which you can surface using Apiiro’s Risk Graph Explorer, as seen below—are covered by Akamai. 
+
+![Risk Graph Explorer Enriched by Akamai](/images/risk-graph-explorer.jpg)
+
+Ultimately, this insight has the ability to minimize API security testing gaps and ensure more complete coverage.
+
+## Unifying API risk management from code to runtime
+
+Apiiro’s integration with Akamai API Security empowers teams to streamline their API discovery, testing, prioritization, and remediation with continuous and complete visibility of APIs and API risks from development to runtime. This integration is the first step in providing an integrated view of API risks that unifies code and runtime insights so teams can proactively secure their APIs and efficiently prioritize and remediate API risks. 
