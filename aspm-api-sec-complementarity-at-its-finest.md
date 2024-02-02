@@ -1,6 +1,6 @@
 # ASPM and API Security: Complementarity at its Finest
 
-Complementarity is a word not often heard outside Quantum Physics circles these days, but but its more traditional use here I think is more aprapos here than the meaning used by Quantum Physics. If you look it up there are a bunch of variations, but the ![Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/complementarity) says it best
+Complementarity is a word not often heard outside Quantum Physics circles these days, but but its more traditional use here I think is more aprapos here than the meaning used by Quantum Physics. If you look it up there are a bunch of variations, but the [Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/complementarity) says it best
 
 complementarity
 : the quality of being different but useful when combined
