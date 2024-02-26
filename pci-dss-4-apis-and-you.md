@@ -78,6 +78,7 @@ When utilizing third-party APIs, a critical best practice is to trust nothing. Y
 Perhaps the most perilous flaw lies in logical vulnerabilities. These flaws transcend mere code errors; they affect the very logic of your application. When exposed via an API, a logic flaw becomes an open invitation for attackers. To safeguard against this, your custom software must undergo rigorous analysis and testing. Detecting and addressing logic flaws early is paramount.
 
 ### Requirement 6.2.4: Safeguarding Custom Software Against Common Attacks
+
 Within Requirement 6, a pivotal section emerges—one that significantly impacts vulnerability testing. Let’s delve into 6.2.4, often regarded as the OWASP (Open Web Application Security Project) segment of this requirement. Its mandate revolves around employing software engineering techniques to prevent or mitigate prevalent software attacks and vulnerabilities in bespoke and custom software.
 
 **Comprehensive Attack Vectors**
