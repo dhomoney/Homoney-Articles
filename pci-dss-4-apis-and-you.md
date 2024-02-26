@@ -2,16 +2,15 @@
 
 ![PCI on API Security before 4.0](/images/ostrich-head-in-ground.jpg)
 
-If you hadn't heard the news, the Payment Card Industry (PCI) Security Standards Committee (SSC) Data Security Standards (DSS) have been updated and come into effect on March 31st, 2024. This is a major update that corrects some of the sins of the past and drives home the need to "shift left" with security and also regulates APIs by name. This is a huge difference from the previous PCI DSS standard of 3.2.1, with over 50 changes between the two versions of the standard. Until now PCI DSS was the proverbial ostrich with it's head buryed, not acknowledging the fundamental shift in how companies do business and how the industry has changed. In this post we are going to discuss broadly the changes, specifically in section 6 of PCI DSS 4, and how the PCI SSC has pulled it's head out of the sand in a big way.
+If you haven't heard the news, the Payment Card Industry (PCI) Security Standards Committee (SSC) Data Security Standards (DSS) have been updated and come into effect on March 31st, 2024. This is a major update that corrects some of the sins of the past and drives home the need to "shift left" with security and also regulates APIs by name. This is a huge difference from the previous PCI DSS standard of 3.2.1, with over 50 changes between the two versions of the standard. Until now PCI DSS was the proverbial ostrich with its head buried, not acknowledging the fundamental shift in how companies do business and how the industry has changed. In this post we are going to discuss broadly the changes, specifically in section 6 of PCI DSS 4, and how the PCI SSC has pulled its head out of the sand in a big way.
 
 ## Requirement 6
 
-Requirement 6 of the upcoming new PCI DSS 4.0 stardard states the following:
+Requirement 6 of the upcoming new PCI DSS 4.0 standard states the following:
 
-> Code repositories that store application code, system configurations, or other configuration data that can
-> impact the security of account data or the CDE are in scope for PCI DSS assessments.
+> Code repositories that store application code, system configurations, or other configuration data that can impact the security of account data or the CDE are in scope for PCI DSS assessments.
 
-This marks the first time that all code repositories are now in-scope for PCI DSS audit and security requirements. Additionally, we would be remiss if we didn't call something out. Throughout Requirement 6 of PCI DSS 4.0 you will oft see repeated the phrase "Bespoke and custom software". The passage pertains to custom code, which can either be internally developed by your organization or supplied by an external party. This code is governed by the requirements set forth in the Data Security Standard (DSS). Specifically, we need to consider the following scenarios:
+This marks the first time that all code repositories are now in scope for PCI DSS audit and security requirements. Additionally, we would be remiss if we didn't call something out. Throughout Requirement 6 of PCI DSS 4.0 you will oft see repeated the phrase "Bespoke and custom software". The passage pertains to custom code, which can either be internally developed by your organization or supplied by an external party. This code is governed by the requirements set forth in the Data Security Standard (DSS). Specifically, we need to consider the following scenarios:
 
 1. **Account Data Handling**: If the custom software interacts with account data, whether by storing, processing, or transmitting it, it falls squarely within the purview of these DSS requirements. The security of account data is paramount, and any software that touches it must adhere to the stipulated guidelines.
 2. **APIs Included**: Notably, this definition extends to Application Programming Interfaces (APIs). Therefore, if your bespoke and tailor-made software integrates APIs—whether for data exchange, communication, or functionality—these APIs are also subject to the same scrutiny.
@@ -21,11 +20,11 @@ What PCI is trying to foster and encourage is a culture of security across the b
 
 With the basics out of the way, let's delve down into PCI DSS 4.0 to see what else pertains to API Security. 
 
-## With Titles Like This, Who Need Ambien?
+## With Titles Like This, Who Needs Ambien?
 
 ![PCI DSS 4: Kitty Ambien](/images/sleeping-kitten.jpg)
 
-We will now delve into Section 6.2 of PCI DSS 4.0, which has the riveting title "Bespoke and custom software are developed securely", a real page turner of a title, but this section has some real heavy hitting requirements one must be aware of. Let's start with the first sub-section 6.2.1.
+We will now delve into Section 6.2 of PCI DSS 4.0, which has the riveting title "Bespoke and custom software are developed securely", a real page-turner of a title, but this section has some real heavy-hitting requirements one must be aware of. Let's start with the first sub-section 6.2.1.
 
 ### Section 6.2.1
 
@@ -52,21 +51,21 @@ PCI DSS underscores the importance of **early security integration**, especially
 
 ![Training](/images/training-homoney-football.jpg)
 
-As the son of a football coach, one of the many lessions my father instilled in me was the need to train. Scant weeks after the end of a season, my father and his coaching staff had the players back in the weight room for training. All winter and spring long his team was in the weight room training their muscles to get stronger and be able to endure more. Once school let out, then started "two-a-days" which was morning practice with lunch followed by more practice in the afternoon. This is where all that added power and endurance, so hard won during winter and fall came together. The bonds of brotherhood were forged in the summer as the team trained together. They learned the offensive and defensive playbook until it was second nature and could anticipate each others' action and reactions and in doing so 30+ individuals were forged by the crucible of training into a cohesive and high functioning team. 
+As the son of a football coach, one of the many lessons my father instilled in me was the need to train. Scant weeks after the end of a season, my father and his coaching staff had the players back in the weight room for training. All winter and spring long his team was in the weight room training their muscles to get stronger and be able to endure more. Once school let out, then started "two-a-days" which was morning practice with lunch followed by more practice in the afternoon. This is where all that added power and endurance, so hard won during winter and fall came together. The bonds of brotherhood were forged in the summer as the team trained together. They learned the offensive and defensive playbook until it was second nature and could anticipate each others' actions and reactions and in doing so 30+ individuals were forged by the crucible of training into a cohesive and high-functioning team. 
 
-So what does this have to do with PCI DSS 4.0? Everything. In section 6.2.2, PCI SSC, rightfully, requires companies to institute a yearly training regimine. That training needs to be:
+So what does this have to do with PCI DSS 4.0? Everything. In section 6.2.2, PCI SSC, rightfully, requires companies to institute a yearly training regimen. That training needs to be:
 
-1. Relevant to their job funtion and languages they code in. 
+1. Relevant to their job function and languages they code in. 
 2. Include secure software design and coding principles
 3. Training on the security tools for detecting software vulnerabilities
 
-Remember, that PCI DSS 4.0 includes APIs, so this means that as organization continue to create and expose APIs their developers need to be trained on API Security and the tools used to find and remediate API vulnerabilites. Also, per the good people over at [APIsec University](https://apisecuniversity.com), only 4% of all API testing is focused on security as opposed to functionality.This leaves a huge security gap to fill. 
+Remember, that PCI DSS 4.0 includes APIs, so this means that as organizations continue to create and expose APIs their developers need to be trained on API Security and the tools used to find and remediate API vulnerabilities. Also, per the good people over at [APIsec University](https://apisecuniversity.com), only 4% of all API testing is focused on security as opposed to functionality. This leaves a huge security gap to fill. 
 
 ### 6.2.3 - Secure Software Development: Addressing Vulnerabilities and Best Practices
 
 ![Secure Software Development](/images/coding-2.jpg)
 
-In Section 6.2.3, the focus remains on identifying and mitigating vulnerabilities within code. Specifically, it emphasizes the need for thorough reviews of bespoke custom software before its release into production or customer environments. The objective is to proactively identify and rectify potential coding vulnerabilities.
+In Section 6.2.3, the focus remains on identifying and mitigating vulnerabilities within the code. Specifically, it emphasizes the need for thorough reviews of bespoke custom software before its release into production or customer environments. The objective is to proactively identify and rectify potential coding vulnerabilities.
 
 **New and Emerging Vulnerabilities**
 Code reviews should extend beyond routine checks. They must actively seek out new and emerging vulnerabilities. Traditionally, these vulnerabilities encompass zero-day exploits or recently discovered security gaps. Notably, such vulnerabilities often relate to third-party libraries and APIs integrated into your applications. To stay vigilant, regularly monitor vulnerability reports and updates.
@@ -106,5 +105,5 @@ While web scanners and penetration testers routinely scrutinize UIs for injectio
 
 ## Final Thoughts
 
-PCI DSS 4.0 has many new requirements that are going to change how PCI is thought of. Gone are the days where putting a Web Application Firewall in place was all one needed to alleviate the burden of annual code reviews. The clarion call for security prioritization and training echoes throughout Requirement 6. This is a long overdue revision finally brings PCI DSS into the modern era and takes security seriously.
+PCI DSS 4.0 has many new requirements that are going to change how PCI is thought of. Gone are the days when putting a Web Application Firewall in place was all one needed to alleviate the burden of annual code reviews. The clarion call for security prioritization and training echoes throughout Requirement 6. This is a long overdue revision finally brings PCI DSS into the modern era and takes security seriously.
 
