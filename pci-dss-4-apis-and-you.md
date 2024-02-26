@@ -29,21 +29,21 @@ We will now delve into Section 6.2 of PCI DSS 4.0, which has the riveting title 
 ### Section 6.2.1
 
 1. **Requirement 6.2.1**:
-   - The text refers to a specific requirement, namely **6.2.1**. In the context of the **Payment Card Industry Data Security Standard (DSS)**, this requirement holds significance. It serves as a guiding principle for organizations aiming to safeguard sensitive data.
-   - The essence of this requirement lies in the need to **comprehend how sensitive data is handled within an application**. This understanding forms the bedrock upon which protective measures can be effectively implemented.
+   - The text refers to a specific requirement, namely 6.2.1. In the context of the Payment Card Industry Data Security Standard, this requirement holds significance. It serves as a guiding principle for organizations aiming to safeguard sensitive data.
+   - The essence of this requirement lies in the need to comprehend how sensitive data is handled within an application. This understanding forms the bedrock upon which protective measures can be effectively implemented.
 
 2. **APIs and Their Implications**:
-   - The passage explicitly highlights the relevance of **Application Programming Interfaces (APIs)**. These APIs act as conduits for data exchange, communication, and functionality within software systems.
-   - The **clear implication** here is that the **Payment Card Industry (PCI)** emphasizes the integration of **security measures from the outset**. In other words, organizations should **"shift left"**—a term often used to describe early-stage security integration.
-   - The concept of **"baking in" security** underscores the need to address security concerns **during the initial development phases** rather than attempting to retrofit security later. This proactive approach ensures that security considerations are **inherent to the software's design**.
+   - The passage explicitly highlights the relevance of Application Programming Interfaces (APIs). These APIs act as conduits for data exchange, communication, and functionality within software systems.
+   - The clear implication here is that the Payment Card Industry emphasizes the integration of security measures from the outset. In other words, organizations should "shift left"—a term often used to describe early-stage security integration.
+   - The concept of "baking in" security underscores the need to address security concerns during the initial development phases rather than attempting to retrofit security later. This proactive approach ensures that security considerations are inherent to the software's design.
 
 3. **APIs and Custom Code**:
-   - When crafting **custom code**, whether it's internally developed or received from external sources, organizations must **adhere to DSS requirements**. These requirements extend beyond the application itself to encompass any APIs woven into its fabric.
-   - The **by-design approach** is pivotal. Rather than treating security as an afterthought, organizations should **weave security into the very fabric of their software**. This strategic alignment ensures that security considerations are **integral to the software's DNA**.
+   - When crafting custom code, whether it's internally developed or received from external sources, organizations must adhere to DSS requirements. These requirements extend beyond the application itself to encompass any APIs woven into its fabric.
+   - The by-design approach is pivotal. Rather than treating security as an afterthought, organizations should weave security into the very fabric of their software. This strategic alignment ensures that security considerations are integral to the software's DNA.
 
 4. **Developer Awareness and Mitigation**:
-   - To meet this requirement, organizations must foster a culture of awareness among **application developers**. These developers need to be well-versed in **API security risks**.
-   - Armed with this knowledge, developers can **create and rigorously test code** that effectively **mitigates these risks**. The goal is to build robust software that not only functions seamlessly but also **guards sensitive data** with unwavering vigilance.
+   - To meet this requirement, organizations must foster a culture of awareness among application developers. These developers need to be well-versed in API security risks.
+   - Armed with this knowledge, developers can create and rigorously test code that effectively mitigates these risks. The goal is to build robust software that not only functions seamlessly but also guards sensitive data with unwavering vigilance.
 
 PCI DSS underscores the importance of **early security integration**, especially concerning APIs. By weaving security into the very fabric of custom code, organizations can create resilient applications that protect sensitive data from the outset.
 
