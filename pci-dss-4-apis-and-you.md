@@ -2,7 +2,7 @@
 
 ![PCI on API Security before 4.0](/images/ostrich-head-in-ground.jpg)
 
-If you hadn't heard the news, the Payment Card Industry (PCI) Security Standards Committee (SSC) Data Security Standards (DSS) have been updated and come into effect on March 31st, 2024. This is a major update that corrects some of the sins of the past and drives home the need to "shift left" with security and also regulates APIs by name. This is a huge difference from the previous PCI DSS standard of 3.2.1, over 50 between the two. Until now PCI DSS was the proverbial ostrich with it's head buryed. In this post we are going to discuss broadly the changes, specifically in section 6 of PCI DSS 4, and how the PCI SSC has pulled it's head out of the sand in a big way.
+If you hadn't heard the news, the Payment Card Industry (PCI) Security Standards Committee (SSC) Data Security Standards (DSS) have been updated and come into effect on March 31st, 2024. This is a major update that corrects some of the sins of the past and drives home the need to "shift left" with security and also regulates APIs by name. This is a huge difference from the previous PCI DSS standard of 3.2.1, with over 50 changes between the two versions of the standard. Until now PCI DSS was the proverbial ostrich with it's head buryed, not acknowledging the fundamental shift in how companies do business and how the industry has changed. In this post we are going to discuss broadly the changes, specifically in section 6 of PCI DSS 4, and how the PCI SSC has pulled it's head out of the sand in a big way.
 
 ## Requirement 6
 
