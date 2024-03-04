@@ -1,13 +1,12 @@
-```markdown
 # The Imperative Shift Left: How API Security is Redefining Traditional SecOps
 
-In the fast-paced digital era, Application Programming Interfaces (APIs) have become the backbone of software development, enabling applications to communicate, share data, and extend functionalities in a seamless and efficient manner. However, the proliferation of APIs has also introduced complex security challenges, necessitating a paradigm shift in traditional Security Operations (SecOps) practices. This blog post delves into how API security is compelling traditional SecOps to adopt a "shift left" mindset, emphasizing early integration of security in the software development lifecycle (SDLC) to enhance protection, compliance, and efficiency.
+In the fast-paced digital era, Application Programming Interfaces (APIs) have become the backbone of software development, enabling applications to communicate, share data, and extend functionalities in a seamless and efficient manner. However, the proliferation of APIs has also introduced complex security challenges, necessitating a paradigm shift in traditional Security Operations (SecOps) practices. This blog post delves into how API Security is compelling traditional SecOps to adopt a "shift left" mindset, emphasizing early integration of security in the software development lifecycle (SDLC) to enhance protection, compliance, and efficiency.
 
 ## Understanding the Landscape
 
 ### The Rise of APIs
 
-APIs have become ubiquitous in today's software landscape, serving as the connective tissue between services, platforms, and applications. They enable businesses to offer more integrated and feature-rich services but also expose new attack surfaces for cyber threats. The complexity and volume of API interactions have outpaced traditional security measures, making it imperative for organizations to reassess their SecOps strategies.
+APIs have become ubiquitous in today's software landscape, serving as the connective tissue between services, platforms, and applications. They enable businesses to offer more integrated and feature-rich services rapidly but also expose broad new attack surfaces heretofore unseen. The complexity and volume of API interactions have outpaced traditional security measures, making it imperative for organizations to reassess their SecOps strategies. This is where, let's call them, first generation API Security focused. That focus was on discovery of new APIs but was hindered by only being able to see those APIs that were still going through tradional corporate gates, such as API gateways and WAFs (Web Application Firewall). It also could detect more API specific attacks, but was unable to see or determine more complex business logic attacks like BOLA or BAFLA attacks. 
 
 ### Traditional SecOps Challenges
 
