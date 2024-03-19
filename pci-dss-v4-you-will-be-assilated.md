@@ -8,6 +8,8 @@ At its core, PCI DSS 4.0 favors an ingrained culture of daily compliance over pe
 
 ## PCI DSS 4.0's Impact on AppSec
 
+![QSA Audit](/images/qsa-review-nervious.jpg)
+
 Absent a holistic AppSec strategy fortified by synergistic tools for complete visibility and assessment, organizations now face a pressing mandate to evolve. PCI DSS 4.0 compels AppSec groups to sculpt comprehensive programs that ensure sustained security across all facets of application exposure, alongside robust resilience mechanisms for incident response.
 
 Essential components for PCI DSS 4.0 compliance in the AppSec realm include:
@@ -30,16 +32,18 @@ This discourse delves into the pivotal updates within PCI DSS 4.0 affecting AppS
 
 The bulk of modifications impacting AppSec teams are encapsulated in the following requirements:
 
-- **Develop and Maintain Secure Systems and Software.**
+- **Develop and Maintain Secure Systems and Software.** 
 - **Identify Users and Authenticate Access to System Components** (8.6.2 introduces a new mandate against hard-coding passwords/passphrases within any scripts or files for application and system accounts enabling interactive login.)
 - **Test Security of Systems and Networks Regularly.**
 - **Support Information Security with Organizational Policies and Programs.**
+
+![Secure Code Development](/images/secure-code-development.jpg)
 
 Requirement 6 stands out, emphasizing the necessity for secure software development practices, complete with security policy documentation, role definitions, and earlier vulnerability identification and mitigation in the development cycle, alongside comprehensive software inventories and contextual developer training.
 
 Requirements 8, 11, and 12 underscore the importance of robust access controls, secret management, extensive testing (automated and penetration tests), and the operationalization of AppSec programs through annual risk assessments, security policy enforcement, developer training assignments, and more.
 
-## Achieving PCI DSS 4.0 Compliance with Deep ASPM
+## Achieving PCI DSS 4.0 Compliance with ASPM
 
 In an era where security stakes are ever-escalating (as illustrated by the repercussions faced by entities like Solarwinds and Citibank), PCI DSS 4.0 challenges AppSec teams to elevate their strategies, often within the constraints of existing or reduced budgets.
 
