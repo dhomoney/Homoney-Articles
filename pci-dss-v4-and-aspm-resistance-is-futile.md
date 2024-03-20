@@ -1,4 +1,5 @@
 # PCI DSS 4.0 and ASPM: Resistance if Futile
+![Assimilation](/images/aspm-assimilating-pcidss.jpg)
 
 PCI DSS 4.0 ushers in a new era for AppSec teams, spotlighting the need for continuous, systematic, and forward-thinking approaches to application security. This blog explores how the revised PCI DSS 4.0 standards beckon for new and tighter application security controls and how ASPM facilitates compliance with the new standards.
 
