@@ -1,11 +1,11 @@
-# PCI DSS 4.0 and ASPM: Resistance if Futile
+# PCI DSS 4.0 and ASPM: Resistance is Futile
 ![Assimilation](/images/aspm-assimilating-pcidss.jpg)
 
-PCI DSS 4.0 ushers in a new era for AppSec teams, spotlighting the need for continuous, systematic, and forward-thinking approaches to application security. This blog explores how the revised PCI DSS 4.0 standards beckon for new and tighter application security controls and how ASPM facilitates compliance with the new standards.
+PCI DSS 4.0 ushers in a new era for AppSec teams, spotlighting the need for continuous, systematic, and forward-thinking approaches to application security. This blog explores how the revised PCI DSS 4.0 standards beckon new and tighter application security controls and how ASPM facilitates compliance with the new standards.
 
 Nearly two decades on, the Payment Card Industry Data Security Standard (PCI DSS) continues to mold the landscape of secure software development, runtime security, and management for entities handling cardholder data. The advent of PCI DSS 4.0 heralds 64 fresh mandates and significant shifts from its predecessor, PCI DSS 3.2.1, marking a pivotal moment for organizations in the payment card ecosystem and SecOps in general.
 
-At its core, PCI DSS 4.0 favors an ingrained culture of daily compliance over periodic assessments, underscoring a commitment to ceaseless, integrated, and anticipatory application security. This evolution profoundly influences application and product security frameworks whether regulated by PCI DSS or not. It is also helping to drive, much like API Security is, SecOps into pay attention to things other than infrastructure security, which has been their domain for so long. The old ostrich needs to pull its head out of the sand and PCI DSS v4 is forcing the issue. 
+At its core, PCI DSS 4.0 favors an ingrained culture of daily compliance over periodic assessments, underscoring a commitment to ceaseless, integrated, and anticipatory application security. This evolution profoundly influences application and product security frameworks whether regulated by PCI DSS or not. It is also helping to drive, much like API Security is, SecOps into paying attention to things other than infrastructure security, which has been their domain for so long. The old ostrich needs to pull its head out of the sand and PCI DSS v4 is forcing the issue. 
 
 ## PCI DSS 4.0's Impact on AppSec
 
@@ -35,7 +35,7 @@ The bulk of modifications impacting AppSec teams are encapsulated in the followi
 
 - **Develop and Maintain Secure Systems and Software.** 
 - **Identify Users and Authenticate Access to System Components** (8.6.2 introduces a new mandate against hard-coding passwords/passphrases within any scripts or files for application and system accounts enabling interactive login.)
-- **Test Security of Systems and Networks Regularly.**
+- **Test the Security of Systems and Networks Regularly.**
 - **Support Information Security with Organizational Policies and Programs.**
 
 ![Secure Code Development](/images/secure-code-development.jpg)
@@ -46,9 +46,9 @@ Requirements 8, 11, and 12 underscore the importance of robust access controls, 
 
 ## Achieving PCI DSS 4.0 Compliance with ASPM
 
-If you don't already know what ASPM is, it stands for Application Security Posture Management. ASPM is a new holistic approach designed to enhance and maintain the security stance of applications throughout its lifecycle. By integrating various tools and practices, ASPM provides a unified view of an application's security health, enabling organizations to detect, **prioritize**, and remediate vulnerabilities and misconfigurations in a data driven, intellegent manner. This methodology extends beyond traditional application security measures by incorporating continuous monitoring, risk assessment, and governance practices to ensure that security is ingrained in every phase of the development process, from initial design to deployment and maintenance. ASPM empowers organizations to not only respond to immediate security threats but also to anticipate potential vulnerabilities, thereby strengthening their overall security framework and compliance posture in an ever-evolving threat landscape. The best of these integrate with runtime as we've discussed in my articles before. 
+If you don't already know what ASPM is, it stands for Application Security Posture Management. ASPM is a new holistic approach designed to enhance and maintain the security stance of applications throughout their lifecycle. By integrating various tools and practices, ASPM provides a unified view of an application's security health, enabling organizations to detect, **prioritize**, and remediate vulnerabilities and misconfigurations in a data-driven, intelligent manner. This methodology extends beyond traditional application security measures by incorporating continuous monitoring, risk assessment, and governance practices to ensure that security is ingrained in every phase of the development process, from initial design to deployment and maintenance. ASPM empowers organizations to not only respond to immediate security threats but also to anticipate potential vulnerabilities, thereby strengthening their overall security framework and compliance posture in an ever-evolving threat landscape. The best of these integrate with runtime as we've discussed in my articles before. 
 
-In an era where security stakes are ever-escalating (as illustrated by the repercussions faced by entities like Microsoft and Change Health), PCI DSS 4.0 challenges AppSec teams to elevate their strategies, often within the constraints of existing or reduced budgets. ASPM allows customers to focus those strained resources and remediate the truly threatening vulnerabilities instead of them getting lost in a see of false or unexploitable alerts.
+In an era where security stakes are ever-escalating (as illustrated by the repercussions faced by entities like Microsoft and Change Health), PCI DSS 4.0 challenges AppSec teams to elevate their strategies, often within the constraints of existing or reduced budgets. ASPM allows customers to focus on those strained resources and remediate the truly threatening vulnerabilities instead of them getting lost in a sea of false or unexploitable alerts.
 
 ### Prioritizing and Addressing Vulnerabilities
 
@@ -60,7 +60,7 @@ A shift towards integrated security across the development lifecycle is palpable
 
 ### Comprehensive Application and Software Supply Chain Inventory
 
-- **Maintaining a Robust Software Inventory:** PCI 4.0 mandates the upkeep of a detailed inventory of custom software and third-party components, utilizing this repository to pinpoint and mitigate vulnerabilities efficiently. This applies to APIs as well as applications, something that until PCI DSS v4 wasn't called out. APIs are really the modern application. ASPM, especially in combination with runtime API Security allows for complete Application and API inventory without anything slipping through the cracks.We should talk about this: [API Security Briefing](https://www.wwt.com/briefing/api-security-visibility-into-an-expanding-attack-surface)
+- **Maintaining a Robust Software Inventory:** PCI 4.0 mandates the upkeep of a detailed inventory of custom software and third-party components, utilizing this repository to pinpoint and mitigate vulnerabilities efficiently. This applies to APIs as well as applications, something that until PCI DSS v4 wasn't called out. APIs are really modern applications. ASPM, especially in combination with runtime API Security allows for complete Application and API inventory without anything slipping through the cracks. We should talk about this: [API Security Briefing](https://www.wwt.com/briefing/api-security-visibility-into-an-expanding-attack-surface)
 
 ### Managing Significant Changes and Audits
 
@@ -76,6 +76,6 @@ A shift towards integrated security across the development lifecycle is palpable
 
 ### Application Security Posture Management
 
-To navigate the complexities of AppSec program operationalization, ASPM offers a streamlined avenue for setting policies, integrating developer guardrails, and conducting security coverage mapping. This holistic approach enables AppSec teams to maximize efficiency while ensuring adherence to evolving security standards with the least ammount of friction being added to the developers day-to-day life, which is key to security tool adoption. 
+To navigate the complexities of AppSec program operationalization, ASPM offers a streamlined avenue for setting policies, integrating developer guardrails, and conducting security coverage mapping. This holistic approach enables AppSec teams to maximize efficiency while ensuring adherence to evolving security standards with the least amount of friction being added to the developers' day-to-day lives, which is key to security tool adoption. 
 
-ASPM's role in AppSec strategy encompasses an open platform ethos chosing to integrate with the tools DevOps already consume, merging native application security testing (AST) and software supply chain security solutions (SSCS) to offer a cohesive view of AppSec risks, prioritization, and remediation efforts. This integrated model not only simplifies governance across the development lifecycle but also empowers teams to address security challenges with greater agility and precision. Let's talk further on this subject. [Application Security Briefing](https://www.wwt.com/briefing/application-security-briefing)
+ASPM's role in AppSec strategy encompasses an open platform ethos choosing to integrate with the tools DevOps already consume, merging native application security testing (AST) and software supply chain security solutions (SSCS) to offer a cohesive view of AppSec risks, prioritization, and remediation efforts. This integrated model not only simplifies governance across the development lifecycle but also empowers teams to address security challenges with greater agility and precision. Let's talk further on this subject. [Application Security Briefing](https://www.wwt.com/briefing/application-security-briefing)
