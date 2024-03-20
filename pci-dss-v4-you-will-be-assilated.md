@@ -1,10 +1,10 @@
 # PCI DSS 4.0 and ASPM: Navigating New AppSec Requirements
 
-PCI DSS 4.0 ushers in a new era for AppSec teams, spotlighting the need for continuous, systematic, and forward-thinking approaches to application security. This blog explores how the revised PCI 4.0 standards beckon for new and tighter application security controls and how ASPM facilitates compliance with the new standards.
+PCI DSS 4.0 ushers in a new era for AppSec teams, spotlighting the need for continuous, systematic, and forward-thinking approaches to application security. This blog explores how the revised PCI DSS 4.0 standards beckon for new and tighter application security controls and how ASPM facilitates compliance with the new standards.
 
 Nearly two decades on, the Payment Card Industry Data Security Standard (PCI DSS) continues to mold the landscape of secure software development, runtime security, and management for entities handling cardholder data. The advent of PCI DSS 4.0 heralds 64 fresh mandates and significant shifts from its predecessor, PCI DSS 3.2.1, marking a pivotal moment for organizations in the payment card ecosystem and SecOps in general.
 
-At its core, PCI DSS 4.0 favors an ingrained culture of daily compliance over periodic assessments, underscoring a commitment to ceaseless, integrated, and anticipatory application security. This evolution profoundly influences application and product security frameworks whether regulated by PCI DSS or not.
+At its core, PCI DSS 4.0 favors an ingrained culture of daily compliance over periodic assessments, underscoring a commitment to ceaseless, integrated, and anticipatory application security. This evolution profoundly influences application and product security frameworks whether regulated by PCI DSS or not. It is also helping to drive, much like API Security is, SecOps into pay attention to things other than infrastructure security, which has been their domain for so long. The old ostrich needs to pull its head out of the sand and PCI DSS v4 is forcing the issue. 
 
 ## PCI DSS 4.0's Impact on AppSec
 
