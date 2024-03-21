@@ -39,3 +39,5 @@ Perhaps most significantly, the SSDAF extends accountability beyond the traditio
 ![Grilled by Congress](/images/cartoon-congressional-inquiry.jpg)
 
 In conclusion, the SSDAF is not merely a regulatory formality; it is a clarion call to the software development and cybersecurity communities. It demands a reevaluation of current practices and a unified move towards embedding security into the DNA of software development. As we navigate the complexities of modern software creation and deployment, the principles encapsulated in the SSDAF serve as guiding lights towards a more secure and resilient digital future.
+
+There is a lot more to say on this an the Application Security world in general. Reach out and let's discuss during an [Application Security Briefing](https://www.wwt.com/briefing/application-security-briefing)
